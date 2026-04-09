@@ -14,7 +14,7 @@
     "telebridge": "tsc && node dist/index.js"
   },
   "dependencies": {
-    "@telebridge/entity": "github:TeleBridge/entity",
+    "@telebridge/entity": "git+https://github.com/TeleBridge/entity.git#75cc68df12a484e136b44e46603383e477d7b368",
     "chalk": "^5.3.0",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",

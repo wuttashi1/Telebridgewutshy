@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@telebridge/entity':
-    specifier: github:TeleBridge/entity
+    specifier: git+https://github.com/TeleBridge/entity.git#75cc68df12a484e136b44e46603383e477d7b368
     version: git/github.com+TeleBridge/entity/75cc68df12a484e136b44e46603383e477d7b368
   chalk:
     specifier: ^5.3.0
@@ -1360,7 +1360,7 @@ packages:
     dev: false
 
   git/github.com+TeleBridge/entity/75cc68df12a484e136b44e46603383e477d7b368:
-    resolution: {commit: 75cc68df12a484e136b44e46603383e477d7b368, repo: git@github.com:TeleBridge/entity.git, type: git}
+    resolution: {commit: 75cc68df12a484e136b44e46603383e477d7b368, repo: https://github.com/TeleBridge/entity.git, type: git}
     name: '@telebridge/entity'
     version: 0.0.0-dev
     prepare: true
