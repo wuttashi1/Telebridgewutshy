@@ -1,0 +1,2 @@
+onlyBuiltDependencies:
+  - "@telebridge/entity"
