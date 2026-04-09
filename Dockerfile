@@ -9,6 +9,6 @@ RUN corepack prepare pnpm@10.33.0 --activate
 COPY . .
 
 RUN pnpm install --frozen-lockfile --prefer-offline
-RUN pnpm run build
+RUN if [ -d src ] && [ -n "$(find src -name '*.ts' -print -quit)" ]; then pnpm run build; else echo "No TypeScript sources found in image, skipping build and using dist/"; fi
 
 CMD ["pnpm", "start"]
