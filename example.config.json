@@ -1,0 +1,33 @@
+{
+    "bridges": [
+        {
+            "name": "Cool Bridge",
+            "discord": {
+                "chat_id": "123456789012345678"
+            },
+            "telegram": {
+                "chat_id": "-1001234567890"
+            },
+            "hide": false,
+            "disabled": false
+        },
+        {
+            "name": "CIA Top Secret Bridge",
+            "discord": {
+                "chat_id": "123456789012345678"
+            },
+            "telegram": {
+                "chat_id": "-1001234567890"
+            },
+            "hide": true,
+            "disabled": false
+        }
+    ],
+    "ignore_bots": true,
+    "owner": {
+        "discord": "123456789012345678",
+        "telegram": "123456789"
+    },
+    "check_for_deleted_messages": false,
+    "deleted_message_check_interval": 5
+}
